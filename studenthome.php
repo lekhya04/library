@@ -98,6 +98,12 @@
             </div>
             <div class="button-container">
                 <div class="button">
+                    <button class="but" id="search" onclick="window.open('bookborrow.php', '_self')">
+                    <i class="fas fa-book"></i>Borrow
+                    </button>
+                  
+                </div>
+                <div class="button">
                     <button class="but" id="search" onclick="window.open('search.php', '_self')">
                     <i class="fas fa-search"></i>Search
                     </button>
