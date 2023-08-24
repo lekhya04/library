@@ -121,8 +121,8 @@ if (!isset($_SESSION['faculty_id'])) {
         <button class="button" id="add" onclick="window.open('add.php', '_self')">
         <i class="fas fa-plus-circle" ></i>Add
         </button>
-        <button class="button" id="change" onclick="window.open('update.php', '_self')">
-        <i class="fas fa-edit"></i>Update
+        <button class="button" id="change" onclick="window.open('borrow.php', '_self')">
+        <i class="fas fa-book"></i>Borrowed
         </button>
         <button class="button" onclick="window.open('logout.php', '_self')" id="logout">
         <i class="fas fa-sign-out-alt"></i>Logout
